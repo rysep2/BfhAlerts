@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="txtDisplayName"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="swiDoctor"
+        android:summary="@string/pref_description_doctor"
+        android:title="@string/pref_title_doctor" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="swiFirefighter"
+        android:summary="@string/pref_description_firefighter"
+        android:title="@string/pref_title_firefighter" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="swiJanitor"
+        android:summary="@string/pref_description_janitor"
+        android:title="@string/pref_title_janitor" />
+
+</PreferenceScreen>

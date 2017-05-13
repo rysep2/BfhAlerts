@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Hier können Sie sich als Helfer registrieren. Jeder Benutzer kann maximal eine Helferrolle einnehmen."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtChangeRole" />
+
+    <Switch
+        android:text="Ich bin Arzt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swiDoctor" />
+
+    <Switch
+        android:text="Ich bin Feuerwehrmann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swiFirefighter" />
+
+    <Switch
+        android:text="Ich bin Abwart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swiJanitor" />
+</LinearLayout>

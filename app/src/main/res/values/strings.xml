@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BFH Alerts</string>
+    <string name="welcome_msg">Welcome!</string>
+    <string name="firebase_url">https://bfhalerts.firebaseio.com/</string>
+
+    <string name="access_points">Access Points</string>
+    <string name="archived_alerts">Archivierte Alarme</string>
+    <string name="properties">Properties</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="medicalEmergency">Medizinischer Notfall</string>
+    <string name="fire">Brandfall</string>
+    <string name="flooding">Rohrbruch</string>
+
+    <string name="firebaseAlertsUrl">https://bfhalerts.firebaseio.com/alerts</string>
+    <string name="firebaseAlerts">alerts</string>
+    <string name="firebaseArchivedAlerts">archived_alerts</string>
+    <string name="firebaseMessages">messages</string>
+    <string name="firebaseAccessPoints">access_points</string>
+    <string name="firebaseAvailabilities">availabilities</string>
+
+    <string name="firebaseDoctors">doctors</string>
+    <string name="firebaseFirefighters">firefighters</string>
+    <string name="firebaseJanitors">janitors</string>
+
+    <string name="registerDialogMessage">Sie sind nun als Helfer registriert. Damit automatisch erkannt wird, dass Sie sich in einem BFH-Gebäude befinden, müssen Sie sich jeweils per WLAN mit dem BFH-Netz verbinden.</string>
+    <string name="registerDialogTitle">Ein- und Ausstempeln</string>
+
+    <string name="alertCallDialogMessage">Möchten Sie einen Anruf an die Notrufnummer 144 starten?</string>
+    <string name="alertCallDialogTitle">144 Anrufen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="emergencyNumber">12345</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">Allgemein</string>
+
+    <string name="pref_title_display_name">Anzeigename bei Konversationen</string>
+    <string name="pref_default_display_name">Anonym</string>
+
+    <string name="pref_title_doctor">Rolle Arzt</string>
+    <string name="pref_description_doctor">Wählen Sie diese Einstellung wenn Sie Arzt sind.</string>
+
+    <string name="pref_title_firefighter">Rolle Feuerwehrmann</string>
+    <string name="pref_description_firefighter">Wählen Sie diese Einstellung wenn Sie Feuerwehrmann sind.</string>
+
+    <string name="pref_title_janitor">Rolle Abwart</string>
+    <string name="pref_description_janitor">Wählen Sie diese Einstellung wenn Sie Abwart sind.</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

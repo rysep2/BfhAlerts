@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/access_points"
+        android:title="@string/access_points"/>
+    <item
+        android:id="@+id/archived_alerts"
+        android:title="@string/archived_alerts"/>
+    <item
+        android:id="@+id/properties"
+        android:title="@string/properties"/>
+</menu>

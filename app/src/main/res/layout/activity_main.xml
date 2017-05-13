@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rdbGroupEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblEmergencyType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Um welchen Notfalltyp handelt es sich?"
+            />
+
+        <RadioButton
+            android:id="@+id/rdbFire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fire" />
+
+        <RadioButton
+            android:id="@+id/rdbMedicalEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medicalEmergency" />
+
+        <RadioButton
+            android:id="@+id/rdbFlooding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flooding" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnStartAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm auslösen"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/lblCurrentAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Laufende Alarme:"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/alertRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout" />
+
+</LinearLayout>
