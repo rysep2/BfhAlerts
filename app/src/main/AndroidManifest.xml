@@ -29,7 +29,7 @@
         </activity>
 
         <service
-            android:name=".NotificationReceiver"
+            android:name=".HelperClasses.NotificationReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -45,15 +45,18 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".AccessPointsActivity" />
+        <activity
+            android:name=".BuildingActivity"
+            android:windowSoftInputMode="adjustResize" />
 
-        <receiver android:name=".ConnectivityReceiver">
+        <receiver android:name=".HelperClasses.ConnectivityReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
         <service
-            android:name=".ConnectivityJob"
+            android:name=".HelperClasses.ConnectivityJob"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 

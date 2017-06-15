@@ -3,10 +3,12 @@
     <string name="welcome_msg">Welcome!</string>
     <string name="firebase_url">https://bfhalerts.firebaseio.com/</string>
 
-    <string name="access_points">Access Points</string>
+    <string name="access_points">Access Points erfassen</string>
+    <string name="buildings">Gebäude erfassen</string>
     <string name="archived_alerts">Archivierte Alarme</string>
-    <string name="properties">Properties</string>
+    <string name="properties">Einstellungen</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="adminMode">Adminmodus</string>
 
     <string name="medicalEmergency">Medizinischer Notfall</string>
     <string name="fire">Brandfall</string>

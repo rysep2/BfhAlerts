@@ -28,4 +28,8 @@
         android:summary="@string/pref_description_janitor"
         android:title="@string/pref_title_janitor" />
 
+    <Preference android:title="About"
+        android:summary="By Pascal Ryser, Version 1.0"
+        android:key="btnAbout"/>
+
 </PreferenceScreen>

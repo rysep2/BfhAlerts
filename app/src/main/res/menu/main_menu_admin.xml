@@ -3,6 +3,14 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/access_points"
+        android:title="@string/access_points"/>
+
+    <item
+        android:id="@+id/buildings"
+        android:title="@string/buildings"/>
+
+    <item
         android:id="@+id/archived_alerts"
         android:title="@string/archived_alerts"/>
     <item

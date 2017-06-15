@@ -11,14 +11,6 @@
     tools:context="rysep2.bfhalerts.AccessPointsActivity">
 
 
-    <Button
-        android:id="@+id/btnGetAccessPoint"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get Access Point"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp" />
-
     <TextView
         android:id="@+id/tvBSSID"
         android:layout_width="match_parent"
@@ -30,27 +22,33 @@
         android:layout_marginTop="85dp"
         android:textAlignment="center"/>
 
+    <Spinner
+        android:id="@+id/spnBssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBSSID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"></Spinner>
+
+    <Button
+        android:id="@+id/btnGetAccessPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Access Point"
+        android:layout_marginTop="53dp"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btnSetAccessPoint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Set Access Point"
+        android:textAllCaps="false"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/btnGetAccessPoint"
         android:layout_alignEnd="@+id/btnGetAccessPoint"
-        android:layout_marginBottom="17dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Rolexgebäude"
-        android:ems="10"
-        android:layout_below="@+id/tvBSSID"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
-        android:id="@+id/etStandort" />
-
+        android:layout_marginBottom="58dp" />
 
 </RelativeLayout>
